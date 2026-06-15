@@ -1,0 +1,6 @@
+{
+  "name": "Sunset Palace Database",
+  "description": "A character and world database for the Sunset Palace apartment and Sandy Cove street in a modern vintage California setting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
