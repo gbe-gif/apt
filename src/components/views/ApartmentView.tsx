@@ -13,6 +13,10 @@ export function ApartmentView() {
         <p className="text-sm font-medium text-[var(--color-ocean)] uppercase tracking-widest">Apartment Layout</p>
       </header>
 
+      <div className="rounded-3xl overflow-hidden shadow-sm border border-[var(--color-beige-dark)]">
+        <img src="https://gbe88.uk/1/Apt/set.webp" alt="Sunset Palace Apartment" className="w-full h-auto block" />
+      </div>
+
       <section className="bg-white rounded-3xl p-8 shadow-sm border border-[var(--color-beige-dark)]">
         <h2 className="text-2xl font-bold mb-5 text-[var(--color-ink)]">선셋 팰리스 아파트먼트</h2>
         <ul className="space-y-3 text-gray-700 text-sm md:text-base">

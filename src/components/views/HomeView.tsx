@@ -45,6 +45,10 @@ export function HomeView() {
           </h2>
         </header>
 
+        <div className="mb-8 rounded-3xl overflow-hidden shadow-sm border border-[var(--color-beige-dark)]">
+          <img src="https://gbe88.uk/1/Apt/stre.webp" alt="Sandy Cove St." className="w-full h-auto block" />
+        </div>
+
         <div className="space-y-4">
           {sandyCoveDetails.map((detail, idx) => (
             <div key={idx} className="bg-white p-6 rounded-2xl shadow-sm border border-[var(--color-beige-dark)] flex gap-4 items-start">
