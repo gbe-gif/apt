@@ -83,13 +83,41 @@ export function ApartmentView() {
               </div>
             </div>
             <div className="bg-[#EAF3F9] rounded-2xl p-6 shadow-sm border border-[var(--color-ocean)]/20 flex-1">
-              <div className="flex justify-between items-start mb-3">
-                <h3 className="font-bold text-lg text-[var(--color-ocean)]">아파트 외부 (샌디 코브 스트리트)</h3>
-              </div>
-              <div className="space-y-3">
-                <div className="pb-2">
-                  <p className="font-bold text-[var(--color-ink)] mb-1.5 align-middle">라쿤 갱단 대장: <span className="text-[var(--color-ocean)]">빅 토니</span></p>
-                  <p className="text-[0.9rem] text-gray-700 leading-relaxed">(수컷, 19kg) 거리를 장악한 불량 라쿤 무리의 거대한 우두머리임. 폭군처럼 굴며 엄청난 식탐을 자랑하지만, 예쁜 여자 앞에서는 나름대로 젠틀하게 행동함. 아파트 경비원인 행크를 일생일대의 라이벌로 여기며 호시탐탐 대립각을 세움.</p>
+              <h3 className="font-bold text-lg text-[var(--color-ocean)] mb-5 border-b border-[var(--color-ocean)]/20 pb-3">아파트 외부 (샌디 코브 스트리트)</h3>
+              
+              <div className="flex flex-col sm:flex-row gap-5 items-start">
+                <div className="shrink-0 w-full sm:w-36 flex justify-center sm:block">
+                  <img 
+                    src="https://gbe88.uk/1/Apt/raccoon.webp" 
+                    alt="빅 토니" 
+                    className="rounded-2xl border border-[var(--color-ocean)]/20 shadow-sm w-full h-auto aspect-square object-cover max-w-[200px] sm:max-w-none bg-white"
+                  />
+                </div>
+                <div className="flex-1 w-full pl-1 sm:pl-0">
+                  <div className="mb-3">
+                    <div className="flex items-end gap-2 flex-wrap mb-1">
+                      <p className="font-bold text-[var(--color-ink)] text-xl">빅 토니</p>
+                      <p className="text-[var(--color-ocean)] font-bold text-sm mb-0.5">라쿤 갱단 대장</p>
+                    </div>
+                    <div className="flex flex-wrap gap-2 mt-2">
+                      <span className="px-2.5 py-1 bg-white border border-[var(--color-ocean)]/20 text-[var(--color-ocean)] text-xs font-bold rounded-md">수컷</span>
+                      <span className="px-2.5 py-1 bg-white border border-[var(--color-ocean)]/20 text-[var(--color-ocean)] text-xs font-bold rounded-md">19kg</span>
+                    </div>
+                  </div>
+                  <ul className="space-y-2.5 mt-4 pt-4 border-t border-[var(--color-ocean)]/10 text-[0.95rem] text-gray-700">
+                    <li className="flex items-start">
+                      <span className="text-[var(--color-ocean)] opacity-70 mr-2.5 mt-1.5 text-[0.5rem]">◆</span>
+                      <span className="leading-relaxed">거리를 장악한 불량 라쿤 무리의 거대한 우두머리임.</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-[var(--color-ocean)] opacity-70 mr-2.5 mt-1.5 text-[0.5rem]">◆</span>
+                      <span className="leading-relaxed">폭군처럼 굴며 엄청난 식탐을 자랑하지만, 예쁜 여자 앞에서는 나름대로 젠틀하게 행동함.</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-[var(--color-ocean)] opacity-70 mr-2.5 mt-1.5 text-[0.5rem]">◆</span>
+                      <span className="leading-relaxed">아파트 경비원인 행크를 일생일대의 라이벌로 여기며 호시탐탐 대립각을 세움.</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
