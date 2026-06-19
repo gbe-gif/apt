@@ -1,1 +1,1 @@
-export type Tab = 'home' | 'apartment' | 'residents';
+export type Tab = 'home' | 'apartment' | 'residents' | 'gallery';

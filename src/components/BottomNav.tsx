@@ -1,4 +1,4 @@
-import { Home, Building, Users } from 'lucide-react';
+import { Home, Building, Users, Image as ImageIcon } from 'lucide-react';
 import { Tab } from '../types';
 
 interface BottomNavProps {
@@ -11,6 +11,7 @@ export function BottomNav({ activeTab, onTabChange }: BottomNavProps) {
     { id: 'home', label: '홈', icon: Home },
     { id: 'apartment', label: '아파트', icon: Building },
     { id: 'residents', label: '입주민', icon: Users },
+    { id: 'gallery', label: '갤러리', icon: ImageIcon },
   ];
 
   return (

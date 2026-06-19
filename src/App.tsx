@@ -10,6 +10,7 @@ import { BottomNav } from './components/BottomNav';
 import { HomeView } from './components/views/HomeView';
 import { ApartmentView } from './components/views/ApartmentView';
 import { ResidentsView } from './components/views/ResidentsView';
+import { GalleryView } from './components/views/GalleryView';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<Tab>('home');
@@ -21,6 +22,7 @@ export default function App() {
           {activeTab === 'home' && <HomeView key="home" />}
           {activeTab === 'apartment' && <ApartmentView key="apartment" />}
           {activeTab === 'residents' && <ResidentsView key="residents" />}
+          {activeTab === 'gallery' && <GalleryView key="gallery" />}
         </AnimatePresence>
       </main>
 
